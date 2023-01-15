@@ -20,3 +20,12 @@ Content-Type: application/json
 {
   "status": "IN_PROGRESS"
 }
+
+//validation
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "Create task API",
+  "description": ""
+}
