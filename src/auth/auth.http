@@ -1,0 +1,18 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "abdul2@gmail.com",
+  "password": "P@assword12"
+}
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "username": "abdul2@gmail.com",
+  "password": "P@assword12"
+}
+
+# Get http://localhost:3000/auth/test
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFiZHVsMkBnbWFpbC5jb20iLCJpYXQiOjE2NzM5NzE3ODIsImV4cCI6MTY3Mzk3NTM4Mn0.cBhoTMNhBUkKOarD5TFv9oprzH0gLWU5p2FqNymh47U
